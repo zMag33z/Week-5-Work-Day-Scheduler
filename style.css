@@ -17,31 +17,32 @@ body {
   }
   
   .time-block {
-    border-radius: 15px;
+    border-radius: 20px;
   }
-  
+
   .row {
-    border-top: 1px solid white;
+    border-top: 3px solid white;
   }
   
   .hour {
-    background-color: #ffffff;
+    background-color: #eee678;
     color: #000000;
-    border-top: 1px dashed #000000;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
   }
   
   .past {
-    background-color: #d3d3d3;
+    background-color: #ee2828;
     color: white;
   }
   
   .present {
-    background-color: #ff6961;
+    background-color: #4685ce;
     color: white;
   }
   
   .future {
-    background-color: #77dd77;
+    background-color: #49aa49;
     color: white;
   }
   
