@@ -11,7 +11,8 @@ A simple calendar app for scheduling your work day.
 - [Credits](#credits)
 - [License](#license)
 
-## Installations
+## Installations 
+ Included within the app
 
 [BootStrap](https://getbootstrap.com)
 
