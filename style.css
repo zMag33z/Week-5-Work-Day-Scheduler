@@ -1,82 +1,78 @@
 /*Body's background and all fonts.*/
 body {
-    background-color: grey;
-    font-family: 'Open Sans', sans-serif;
-  }
+  background-color: grey;
+  font-family: 'Open Sans', sans-serif;
+}
 
 
 
 /*Header*/
-  header {
-    color: white;
-  } 
+header {
+  color: white;
+} 
 /*'h1'- Title and 'p'- Date.*/
-  .font-weight{
-    font-weight: 700;
-  }
+.font-weight{
+  font-weight: 700;
+}
 
 
 
 /*Row for all below.
-  Its class will take on past/present/future class through js.*/   
+Its class will take on past/present/future class through js.*/   
 
-  .row {
-    border-radius: 20px;
-    border-top: 3px solid grey;
-  }
+.row {
+  border-radius: 20px;
+  border-top: 3px solid grey;
+}
 
 /*Time left tab each row. Ex: 9 am.*/ 
-  .hour {
-    background-color: #0684a1;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    color: white;
-    font-weight: 800;
-    font-size: 150%;
-  }
+.hour {
+  background-color: #0684a1;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  color: white;
+  font-weight: 800;
+  font-size: 150%;
+}
 
 /*Textareas*/  
-  .description {
-    white-space: pre-wrap;
-    background: transparent;
-    border: none;
-    resize: none;
-    border-left: 1px solid white;
-    padding: 10px;
-    font-weight: 600;
-    font-size: 115%;
-    color: white;
-  }
+.description {
+  white-space: pre-wrap;
+  background: transparent;
+  border: none;
+  resize: none;
+  border-left: 1px solid white;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 115%;
+  color: white;
+}
 
 /*Buttons*/
-  .saveBtn {
-    border-left: 1px solid white;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-color: #06aed5;
-    color: white;
-  }
-  
-  .saveBtn i:hover {
-    font-size: 20px;
-    transition: all 0.3s ease-in-out;
-  }
+.saveBtn {
+  border-left: 1px solid white;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06aed5;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
 
 
 
 /* Time Classes added to row class through js.*/
-  .past {
-    background-color: #ee2828;
+.past {
+  background-color: #ee2828;
+}
 
-  }
-  
-  .present {
-    background-color: #4685ce;
+.present {
+  background-color: #4685ce;
+}
 
-  }
-  
-  .future {
-    background-color: #49aa49;
-
-  }
-  
+.future {
+  background-color: #49aa49;
+}
