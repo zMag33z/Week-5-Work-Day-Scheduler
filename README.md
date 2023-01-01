@@ -43,4 +43,4 @@ A simple scheduling app that only includes a way to schedule personal text to a 
 
 ## License
 
-### [MIT License Copyright (c) 2022](https://zmag33z.github.io/week-5-Work-Day-Scheduler/license.md)
+### [MIT License Copyright (c) 2022](https://zmag33z.github.io/Week-5-Work-Day-Scheduler/license.md)
